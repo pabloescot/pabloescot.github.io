@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Introducción css Pablo Escot</title>
+</head>
+<body>
+
+<h1>Intro a css Pablo Escot</h1>
+
+<h2>Selección por etiqueta PE</h2>
+
+    <h3>Se puede cambiar el fondo o el color de las letras de un mismo tamaño en style, por ejemplo: h3{ color: "color elegido" }</h3>
+
+    <h3>Este texto está en tamaño h3</h3>
+
+<h2>Selección por id PE</h2>
+
+    <h3>Se puede elegir el color del fondo o de las letras de un apartado usando id, por ejemplo: en el apartado que quieras colorear se usa detras del tamaño de letra id="nombre",
+        luego en style hay que usar #"nombre"{color: "color seleccionado"}
+    </h3>
+
+    <h3 id="título-color"> Este texto está en h3 coloreado con id</h3>
+
+    <h3 id="fondo-título">Este texto tiene el fondo coloreado con id</h3>
+
+<h2>Selección por class PE</h2>    
+    <h3>Se usa de la misma forma que id, pero este sirve para seleccionar varias líneas, pero con este hay que usar un punto delante del nombre, por ejemplo: ."nombre"</h3>
+    <h3><p class="párrafos">Aquí estoy <br>
+                            usando la <br>
+                            seleción por <br>
+                            class</p></h3>
+
+<h2>Cambiar tipo y tamaño de letra</h2>  
+    <h3>He cambiado el tipo y el tamaño de letra en el apartado de style dentro de body con las siguientes funciones: font-family:"tipo de letra"; (para el tipo de letra) y font-size:"Xpx"; (para el tamaño)</h3>                          
+
+<style>
+
+body{
+     background-color: slategrey;
+     font-family: monospace;
+     font-size: 17px;
+    }
+
+h3{
+   color: goldenrod;
+}
+
+#título-color{
+    color: magenta;
+}
+
+h2{
+   color: yellowgreen;
+}
+
+#fondo-título{
+    background-color: rebeccapurple;
+    color: cyan;
+}
+
+.párrafos{
+    background-color: blue;
+    color: aqua;
+}
+
+</style>
+
+
+
+    
+</body>
+</html>
