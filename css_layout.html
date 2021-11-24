@@ -14,12 +14,12 @@
 </div>
     <h2>Box model PE</h2>
     Usamos el box model para editar el borde de las imagenes, frases,... Se usan: width, height, padding, border y margin
-    <div class="galería">
         <img src="https://media.prod.mdn.mozit.cloud/attachments/2019/03/19/16558/29c6fe062e42a327fb549a081bc56632/box-model.png" alt="box model">
         <h4>Ejemplos:</h4>
-        <img class="wigetta" src="https://fotografias.flooxernow.com/clipping/cmsimages01/2020/02/21/C2EAC9C8-6DBE-41FC-9213-05BACD6A7921/60.jpg?crop=562,316,x0,y0&width=640&height=360&optimize=high&format=webply" alt="vegetta1">
-        <img class="vegetta1" src="https://pbs.twimg.com/media/C6lORmoWkAAeRzr.jpg" alt="vegetta2">
-        <img class="vegetta2" src="https://pbs.twimg.com/media/Ehz0TzUX0AIE9oT?format=jpg&name=large" alt="vegetta3">
+        <div class="galería">
+        <img class="vegetta" src="https://fotografias.flooxernow.com/clipping/cmsimages01/2020/02/21/C2EAC9C8-6DBE-41FC-9213-05BACD6A7921/60.jpg?crop=562,316,x0,y0&width=640&height=360&optimize=high&format=webply" alt="vegetta1">
+        <img class="vegetta" src="https://pbs.twimg.com/media/C6lORmoWkAAeRzr.jpg" alt="vegetta2">
+        <img class="vegetta" src="https://pbs.twimg.com/media/Ehz0TzUX0AIE9oT?format=jpg&name=large" alt="vegetta3">
     </div>
 </body>
 <style>
@@ -32,6 +32,17 @@
     height: 180px;
     overflow-y: auto;
 }
+.galería{
+    padding: 20px;
+    text-align: center;
+}
+.vegetta{
+    width: 30%;
+    height: 400px;
+    border: 5px ridge rebeccapurple;
+    margin: 10px;
+}
+
 
 </style>
 </html>
