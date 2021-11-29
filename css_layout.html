@@ -8,10 +8,12 @@
     <h1>Css layout Pablo Escot</h1>
     <h2>Span PE</h2>
     Utilizamos esta etiqueta para personalizar una <span class="palabra">palabra</span> o una frase específica
-    <h2>Div y overflow PE</h2>
+    <h2>Div PE</h2>
     Utilizamos div para personalizar un texto y overflow para elegir de que forma ver el texto por si no cabe <br>
+    (He usado div para el texto en overflow)
+    <h2>Overflow PE</h2>
     <div class="texto">Obsesivo, meticuloso, determinado y eterno adolescente. Son distintos adjetivos para enmarcar al portugués Cristiano Ronaldo, un notable futbolista que muchos en el mundo discuten aún si debe o no formar parte de la mesa de los elegidos en la historia del deporte masivo por excelencia, como Pelé, Diego Maradona, Johan Cruyff y Alfredo Di Stéfano, y a la que ahora se sumó a Lionel Messi, con la misma cantidad de Balones de Oro y un promedio de gol muy parecido.
-</div>
+    </div>
     <h2>Box model PE</h2>
     Usamos el box model para editar el borde de las imagenes, frases,... Se usan: width, height, padding, border y margin <br>
         <img src="https://media.prod.mdn.mozit.cloud/attachments/2019/03/19/16558/29c6fe062e42a327fb549a081bc56632/box-model.png" alt="box model"> <br>
@@ -27,6 +29,13 @@
         <img class="vegetta" src="imagenes/vegetta_mono.jpg" alt="vegetta2">
         <img class="vegetta" src="imagenes/vegetta_gato.jpeg" alt="vegetta3">
     </div>
+    <h2>Position PE</h2>
+    Existen varios tipos de posicionamiento los cuales son: static, relative, absolute, fixed e inherit.
+    Y para elegir el lugar usamos: top, bottom, left y right.
+    <h4 class="ejemplos">Ejemplo:</h4>
+    <img class="hasbulla" src="imagenes/G.O.A.T.-MMA-Hasbulla-Fighting-shirt.png" alt="hasbulla">
+    <img class="alas" src="imagenes/alas.png" alt="corona"><br>
+                                                                                  
     <a href="Index.html">Página principal</a>
 </body>
 <style>
@@ -58,7 +67,14 @@
     padding: 5px;
     width: 49%;
 }
-
+.alas{
+position: absolute;
+left: 340px;
+}
+.hasbulla{
+    position: absolute;
+    left: 500px;
+}
 
 </style>
 </html>
