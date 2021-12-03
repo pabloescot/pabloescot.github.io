@@ -35,8 +35,12 @@
     <h4 class="ejemplos">Ejemplo:</h4>
     <img class="hasbulla" src="imagenes/G.O.A.T.-MMA-Hasbulla-Fighting-shirt.png" alt="hasbulla">
     <img class="alas" src="imagenes/alas.png" alt="corona"><br>
-                                                                                  
-    <a href="Index.html">Página principal</a>
+
+    <h2>Float y clear</h2>
+    Float ubica un elemento al lado izquierdo o derecho de la página, permitiendo a los elementos de texto y en línea aparecer a su alrededor  
+    <h1><p class="maradona"><img class="imagen_maradona" src="imagenes/maradona.jpg" alt="maradona">
+        "Cuando veo las repeticiones de los partidos que he jugado me doy cuenta de que tengo menos piernas que en una foto de carnet"</p></h1> <br>                                                                            
+    <a class="pagina" href="Index.html">Página principal</a> 
 </body>
 <style>
 .palabra{
@@ -70,11 +74,21 @@
 .alas{
 position: absolute;
 left: 340px;
+clear: both;
 }
 .hasbulla{
     position: absolute;
     left: 500px;
+    
 }
+.imagen_maradona{
+    float: left;
+    width: 20%;
+}
+.pagina{
+    clear: both;
+}
+
 
 </style>
 </html>
