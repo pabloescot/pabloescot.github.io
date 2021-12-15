@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>More CSS selectors</title>
+</head>
+<body>
+    <h1>More CSS selectors PE</h1>
+    <h2>Usar más de una clase en el mismo párrafo</h2>
+    En este párrafo voy a usar dos clases que he creado para que una ponga el fondo de color negro y la otra cambie el tipo de letra
+    <p class="fondonegro tipoletra">“Ganarle a River es como que tu mamá te venga a despertar con un beso a la mañana”.</p> 
+    <h2>Elegir que clases usar para un párrafo distinto</h2>
+    Para esto se usa p."la clase que vayamos a usar" Voy a poner un exto y voy a ponerle las clases que yo elija de las anteriores<br>
+    <p class="tipoletra">"ME SILBAN POR SER RICO, GUAPO Y UN GRAN FUTBOLISTA. PORQUE ME TIENEN ENVIDIA, NO VEO OTRA EXPLICACIÓN"</p>
+    <h2>Selectores descendientes</h2>
+    <p><strong> Se usan para elegir en que parte de la página usar el estilo que le demos, aquí he usado :p strong{
+        font-style: oblique;}</strong></p>
+    <h2>Agrupar selectores</h2>
+    Se usa de forma que dentro de style se ponga mas de una clase para que se le aplique a las dos clases seleccionadas, en este caso he puesto el mismo color de letra en los apartados h1 y h2 
+    <h2>Pseudoclases</h2>
+    :link=	Aplica estilos cuando el enlace no ha sido visitado todavía. <br>
+    :visited=	Aplica estilos cuando el enlace ha sido visitado anteriormente. <br>
+    :hover=	Aplica estilos cuando pasamos el ratón sobre un elemento. <br>
+    :active=	Aplica estilos cuando estamos pulsando sobre el elemento. <br>
+    :focus=	Aplica estilos cuando el elemento tiene el foco. <br>
+    :checked=	Aplica estilos cuando la casilla está seleccionada. <br>
+    <p id="ejemplos">Enlaces de ejemplo:</p> <br>
+    <a href="www.youtube.com">Youtube</a>
+    <a href="www.netflix.com/es/">Netflix</a>
+    <a href="iesgaherrera.com">Instituto</a>
+</body>
+<style>
+    .fondonegro{
+        background-color: black;
+        color: white;
+    }
+    .tipoletra{
+        font-family: monospace;
+    }
+    p.fondonegro{
+        border: 5px solid pink;
+    }
+    p strong{
+        font-style: oblique;
+    }
+    h1, h2{
+        color: slateblue;
+        
+    }
+    a:hover { 
+                background-color: purple
+            }  
+    a:active {
+                background-color: gold
+    a:focus {
+                background-color: lawngreen
+            } 
+    #ejemplos{
+        text-decoration: underline;
+    }
+</style>
+</html>
